@@ -1,0 +1,27 @@
+{
+  "name": "ts-react",
+  "version": "0.0.1",
+  "description": "test ts react",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "watch": "webpack-dev-server",
+    "deploy": "webpack -p"
+  },
+  "author": "Gent",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "0.0.0",
+    "@types/react": "^0.14.51",
+    "@types/react-dom": "^0.14.19",
+    "awesome-typescript-loader": "^2.2.4",
+    "source-map-loader": "^0.1.5",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

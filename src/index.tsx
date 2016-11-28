@@ -1,3 +1,5 @@
+import "../assets/css/styles.css";
+
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 

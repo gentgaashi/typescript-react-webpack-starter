@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "watch": "webpack-dev-server",
+    "watch": "webpack-dev-server --hot --inline --progress --colors",
     "deploy": "webpack -p"
   },
   "author": "Gent",
@@ -19,6 +19,9 @@
     "@types/react": "^0.14.51",
     "@types/react-dom": "^0.14.19",
     "awesome-typescript-loader": "^2.2.4",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
     "source-map-loader": "^0.1.5",
     "typescript": "^2.0.10",
     "webpack": "^1.13.3",
